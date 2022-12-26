@@ -34,7 +34,7 @@ class MySQL implements DatabaseContract {
 
     //return  current sql statment 
     public function getSQL():string  {
-        return  $this->sql ; 
+        return  $this->sql; 
     }
 
     //set table name , return this instance 
@@ -133,5 +133,4 @@ class MySQL implements DatabaseContract {
        $result = $this->conn->query($this->sql)->fetch_all();  
        return end($result); 
     }
-
 }

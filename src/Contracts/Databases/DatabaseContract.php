@@ -15,5 +15,6 @@ interface DatabaseContract {
     public function rightJoin(string $tableToJoin, string $relationRight, string $operator, string $relationLeft): object;
     public function exec():int;
     public function first():array;
+    public function last(): array;
     public function all():array;
 }

@@ -46,7 +46,7 @@ class Sessions implements SessionsContract{
     }
 
     //destroy specific key from session or cookie
-    public static function Destroy($key=''):void
+    public static function Destroy(string $key=''):void
     {
         $sessionType = self::Type(); 
         if ($sessionType == 'session'){
