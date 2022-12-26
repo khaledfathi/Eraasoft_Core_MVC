@@ -1,0 +1,17 @@
+{
+    "name": "eraasoft/core",
+    "description": "Learning MVC",
+    "license": "GPL3.0",
+    "autoload": {
+        "psr-4": {
+            "Eraasoft\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khaledfathi",
+            "email": "khaledfathi@protonmail.com"
+        }
+    ],
+    "require": {}
+}
